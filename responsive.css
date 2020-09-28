@@ -1,0 +1,58 @@
+@media (max-width: 1000px) {
+    html{
+        text-align: center;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    header a{
+        visibility: hidden;
+    }
+
+    header{
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .capa h3{
+        visibility: hidden;
+    }
+
+    .main-content #projeto{
+        display: block;
+    }
+
+    .main-content #metas{
+        width: 80%;
+    }
+    
+    .about{
+        display: block;
+        text-align: center;
+        font-size: initial;
+        justify-content: unset;
+    }
+    .about .text{
+        width: 100%;
+    }
+    
+    footer{
+        font-size: initial;
+    }
+
+}
+
+@media(max-width: 600px){
+    *{
+        width: 100%;
+    }
+      
+    .main-content #places{
+        display: block;
+    }
+    .main-content #places img{
+        width: auto;
+    }
+}
